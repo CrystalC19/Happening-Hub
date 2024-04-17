@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happening Hub</title>
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
-
 
 <!-- Nav Bar Section-->
 <nav class="navbar is-black" role="navigation" aria-label="main navigation">
@@ -75,10 +73,92 @@
         </section>
     </div>
 </div>
+  </div>
+  <main>
+    <section>
+        <div id="map" class="map"></div>
+    </section>
 
+      <!--Top Picks Section-->
+      <section class="section1" class="top-picks">
+        <div class="container">
+           <h3 class="title-has-centered is-size-4 " >Top Picks</h3>
+             <div class="columns mt-5 is-8 is-variable is-centered">
+                 <div class="column is-4-tablet is-3-desktop">
+                   <div class="card">
+                   <div class="card-img has-text-centered px-6">
+                   <img src="Assets/Sportevents.jpg" alt="stadium-event" id="sport-events">
 
-
-
-<script src="Assets\js\script.js"></script>
+                   </div>
+                   <div class="card-content">
+                   <p class = "title is size-5">Sport Events</p>
+                     </div>
+                      </div>
+                      </div>
+                      <div class="column is-4-tablet is-3-desktop">
+                        <div class="card">
+                        <div class="card-img has-text-centered px-6">
+                        <img src="Assets/Charity events.png" alt="Charity" id="charity-events">
+                        </div>
+                        <div class="card-content">
+                        <p class = "title is size-5">Charity Events</p>
+                          </div>
+                           </div>
+                           </div>
+                           <div class="column is-4-tablet is-3-desktop">
+                            <div class="card">
+                            <div class="card-img has-text-centered px-6">
+                            <img src="Assets/filmfestivals.jpg" alt="filmfestivals" id="filmfestivals-events">
+                            </div>
+                            <div class="card-content">
+                               <p class = "title is size-5"> Film Festival</p>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+<!--Nearby events Section-->
+      <section class="section2" class="nearby">
+        <div class="container">
+           <h3 class="title-has-centered is-size-4 " >Nearby Events</h3>
+             <div class="columns mt-5 is-8 is-variable is-centered">
+                 <div class="column is-4-tablet is-3-desktop">
+                   <div class="card">
+                   <div class="card-img has-text-centered px-6">
+                   <img src="Assets/dallas-skyline.jpg" alt="dallas-skyline" id="dallas-nearby">
+                   </div>
+                   <div class="card-content">
+                   <p class = "title is size-5">Dallas</p>
+                     </div>
+                      </div>
+                      </div>
+                      <div class="column is-4-tablet is-3-desktop">
+                        <div class="card">
+                        <div class="card-img has-text-centered px-6">
+                        <img src="Assets/frisco.jpg" alt="city-of-frisco" id="frisco-nearby">
+                        </div>
+                        <div class="card-content">
+                        <p class = "title is size-5">Frisco</p>
+                          </div>
+                           </div>
+                           </div>
+                           <div class="column is-4-tablet is-3-desktop">
+                            <div class="card">
+                            <div class="card-img has-text-centered px-6">
+                            <img src="Assets/fort-worth.jpg" alt="ftw-stockyard" id="ftw-nearby">
+                            </div>
+                            <div class="card-content">
+                             <p class = "title is size-5"> Fort Worth </p>
+                        </div>
+                      </div>
+                   </div>
+                </div>
+           </div>
+      </section>
+</main>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVFif0vD5q0ynUF_Yu7g3JZrf3PxPRh4I&loading=async&callback=initMap"></script>
+  <script src="Assets/js/script.js"></script>
+  <script src="Assets/js/map.js"></script>
 </body>
 </html>
