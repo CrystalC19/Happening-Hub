@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happening Hub</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
 </head>
 <body>
-
 
 <!-- Nav Bar Section-->
 <nav class="navbar is-black" role="navigation" aria-label="main navigation">
@@ -61,8 +61,13 @@
       </footer>
     </div>
   </div>
-
-
-
+  <main>
+    <section>
+        <div id="map" class="map"></div>
+    </section>
+</main>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVFif0vD5q0ynUF_Yu7g3JZrf3PxPRh4I&loading=async&callback=initMap"></script>
+  <script src="Assets/js/script.js"></script>
+  <script src="Assets/js/map.js"></script>
 </body>
 </html>
