@@ -41,23 +41,38 @@
 
 
 <!-- Sign Up Modal -->
-<div class="modal">
+<div class="modal" id="signupModal">
     <div class="modal-background"></div>
     <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Modal title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <!-- Content ... -->
-      </section>
-      <footer class="modal-card-foot">
-        <div class="buttons">
-          <button class="button is-success">Save changes</button>
-          <button class="button">Cancel</button>
-        </div>
-      </footer>
+        <header class="modal-card-head">
+            <p class="modal-card-title">Sign Up for free. Cancel anytime.</p>
+            <button class="delete" aria-label="close" onclick="toggleModal('signupModal', false)"></button>
+        </header>
+        <section class="modal-card-body has-text-centered">
+            <p>Enter your email below to sign up.</p>
+            <input class="input is-medium is-rounded" type="email" placeholder="Email address" style="margin-top: 20px; margin-bottom: 20px;">
+            <button class="button is-primary is-rounded" style="width: 200px;">Submit</button>
+        </section>
     </div>
+</div>
+
+
+<!-- Login Modal -->
+<div class="modal" id="loginModal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">Login</p>
+            <button class="delete" aria-label="close" onclick="toggleModal('loginModal', false)"></button>
+        </header>
+        <section class="modal-card-body has-text-centered">
+            <p>Please enter your email address and password.</p>
+            <input class="input is-medium is-rounded" type="email" placeholder="Email address" style="margin-top: 20px;">
+            <input class="input is-medium is-rounded" type="password" placeholder="Password" style="margin-top: 20px; margin-bottom: 20px;">
+            <button class="button is-danger is-rounded" style="width: 200px;">Submit</button>
+        </section>
+    </div>
+</div>
   </div>
   <main>
     <section>
