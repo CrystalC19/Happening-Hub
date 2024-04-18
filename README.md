@@ -16,7 +16,6 @@ We welcome contributions from the community to improve Event Finder. If you have
 
 
 ## ScreenShot
-![alt text](<Proj1 SS1.png>)
 
 ![alt text](<Proj1 SS2.png>)
 
