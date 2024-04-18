@@ -6,7 +6,7 @@
     <title>Happening Hub</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
     <link rel="stylesheet" href="Assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">0
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
 </head>
 <body>
 
@@ -76,9 +76,10 @@
 </div>
   </div>
   <main>
-    <section>
+    <div class="apiContainer">
         <div id="map" class="map"></div>
-    </section>
+        <div id="eventsList"></div>
+    </div>
 
       <!--Top Picks Section-->
       <section class="section1" class="top-picks">
@@ -161,5 +162,6 @@
   <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVFif0vD5q0ynUF_Yu7g3JZrf3PxPRh4I&loading=async&callback=initMap"></script>
   <script src="Assets/js/script.js"></script>
   <script src="Assets/js/map.js"></script>
+  <script src="Assets/js/events.js"></script>
 </body>
 </html>
