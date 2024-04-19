@@ -26,3 +26,8 @@
     margin-bottom: 20px; /* Add some space between posts */
   }
   
+  
+  h3 {
+    font-weight:900;
+    text-shadow: 1px 1px whitesmoke black;
+   }
